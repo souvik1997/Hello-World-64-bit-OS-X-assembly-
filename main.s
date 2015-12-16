@@ -4,8 +4,6 @@ SECTION .data
 SECTION .text
   global start
   global _main
-  extern _syscall
-  default rel
 _main:
 start:
   mov rdi, 1 ; fd 1 = stdout
